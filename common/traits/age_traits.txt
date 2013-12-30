@@ -1,0 +1,99 @@
+plusFiveTwelve = {
+	cost = 512
+	cached = yes
+}
+
+plusTwoFiftySix = {
+	cost = 256
+	cached = yes
+}
+
+plusOneTwentyEight = {
+	cost = 128
+	cached = yes
+}
+
+plusSixtyFour = {
+	cost = 64
+	cached = yes
+}
+
+plusThirtyTwo = {
+	cost = 32
+	cached = yes
+}
+
+plusSixteen = {
+	cost = 16
+	cached = yes
+}
+
+plusEight = {
+	cost = 8
+	cached = yes
+}
+
+plusFour = {
+	cost = 4
+	cached = yes
+}
+
+plusTwo = {
+	cost = 2
+	cached = yes
+}
+
+plusOne = {
+	cost = 1
+	cached = yes
+}
+
+minusOne = {
+	cost = -1
+	cached = yes
+}
+
+minusTwo = {
+	cost = -2
+	cached = yes
+}
+
+minusFour = {
+	cost = -4
+	cached = yes
+}
+
+minusEight = {
+	cost = -8
+	cached = yes
+}
+
+minusSixteen = {
+	cost = -16
+	cached = yes
+}
+
+minusThirtyTwo = {
+	cost = -32
+	cached = yes
+}
+
+minusSixtyFour = {
+	cost = -64
+	cached = yes
+}
+
+minusOneTwentyEight = {
+	cost = -128
+	cached = yes
+}
+
+minusTwoFiftySix = {
+	cost = -256
+	cached = yes
+}
+
+minusFiveTwelve = {
+	cost = -512
+	cached = yes
+}
