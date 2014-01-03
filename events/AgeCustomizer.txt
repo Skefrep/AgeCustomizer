@@ -1,0 +1,54 @@
+#################################################
+#
+# ageCustomizer traits removal events
+#
+# Written by Skefrep
+#
+#################################################
+
+namespace = ageCustomizer
+
+character_event = {
+	id = ageCustomizer.1
+	desc = "Age Customizer Initialisation"
+	
+	trigger = {
+		NOT = { has_global_flag = age_initialised }
+		has_landed_title = k_papal_state	# The pope always exists
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = age_initialised
+		any_playable_ruler = {
+			limit = { ai = no }
+			remove_trait = plusFiveTwelve
+			remove_trait = plusTwoFiftySix
+			remove_trait = plusOneTwentyEight
+			remove_trait = plusSixtyFour
+			remove_trait = plusThirtyTwo
+			remove_trait = plusSixteen
+			remove_trait = plusEight
+			remove_trait = plusFour
+			remove_trait = plusTwo
+			remove_trait = plusOne
+			remove_trait = minusOne
+			remove_trait = minusTwo
+			remove_trait = minusFour
+			remove_trait = minusEight
+			remove_trait = minusSixteen
+			remove_trait = minusThirtyTwo
+			remove_trait = minusSixtyFour
+			remove_trait = minusOneTwentyEight
+			remove_trait = minusTwoFiftySix
+			remove_trait = minusFiveTwelve
+		}
+	}
+	
+	option = {
+		name = "Age Customizer Initialisation"
+	}
+}
